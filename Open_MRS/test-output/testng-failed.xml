@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Open MRS Test Script]">
+  <test name="Automationg Open MRS Test cases(failed)">
+    <classes>
+      <class name="com.OpenMRS.TestCases.TC_OMRS_1">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="teardown"/>
+          <include name="ExtentReports"/>
+          <include name="endreports"/>
+          <include name="openmrs"/>
+        </methods>
+      </class> <!-- com.OpenMRS.TestCases.TC_OMRS_1 -->
+    </classes>
+  </test> <!-- Automationg Open MRS Test cases(failed) -->
+</suite> <!-- Failed suite [Open MRS Test Script] -->

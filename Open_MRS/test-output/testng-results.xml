@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Open MRS Test Script" duration-ms="146865" started-at="2021-06-05T14:39:34Z" finished-at="2021-06-05T14:42:01Z">
+    <groups>
+    </groups>
+    <test name="Automationg Open MRS Test cases" duration-ms="146865" started-at="2021-06-05T14:39:34Z" finished-at="2021-06-05T14:42:01Z">
+      <class name="com.OpenMRS.TestCases.TC_OMRS_1">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.OpenMRS.TestCases.TC_OMRS_1@3e9b1010]" name="launchbrowser" is-config="true" duration-ms="11035" started-at="2021-06-05T20:09:34Z" finished-at="2021-06-05T20:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="ExtentReports()[pri:0, instance:com.OpenMRS.TestCases.TC_OMRS_1@3e9b1010]" name="ExtentReports" is-config="true" duration-ms="1624" started-at="2021-06-05T20:09:45Z" finished-at="2021-06-05T20:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReports -->
+        <test-method status="PASS" signature="openmrs()[pri:0, instance:com.OpenMRS.TestCases.TC_OMRS_1@3e9b1010]" name="openmrs" duration-ms="129581" started-at="2021-06-05T20:09:46Z" finished-at="2021-06-05T20:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openmrs -->
+        <test-method status="PASS" signature="endreports()[pri:0, instance:com.OpenMRS.TestCases.TC_OMRS_1@3e9b1010]" name="endreports" is-config="true" duration-ms="3494" started-at="2021-06-05T20:11:56Z" finished-at="2021-06-05T20:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreports -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.OpenMRS.TestCases.TC_OMRS_1@3e9b1010]" name="teardown" is-config="true" duration-ms="1068" started-at="2021-06-05T20:12:00Z" finished-at="2021-06-05T20:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OpenMRS.TestCases.TC_OMRS_1 -->
+    </test> <!-- Automationg Open MRS Test cases -->
+  </suite> <!-- Open MRS Test Script -->
+</testng-results>

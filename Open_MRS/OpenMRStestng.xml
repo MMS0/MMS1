@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Open MRS Test Script">
+	<test name="Automationg Open MRS Test cases">
+		<classes>
+			<class name="com.OpenMRS.TestCases.TC_OMRS_1">
+			</class>
+		</classes>
+	</test>
+</suite>
