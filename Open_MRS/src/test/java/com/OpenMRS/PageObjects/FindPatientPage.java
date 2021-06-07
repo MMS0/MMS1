@@ -14,8 +14,10 @@ public class FindPatientPage {
 	public static WebElement showinfo;
 	@FindBy(xpath="//i[contains(@ng-show,'isEmpty')]")
 	public static WebElement noteicon;
-	@FindBy(xpath="//textarea[contains(@placeholder,'Enter a note')]")
+	@FindBy(xpath="//textarea[starts-with(@class,'editable')]")//textarea[contains(@placeholder,'Enter a note')]
 	public static WebElement note;
+	@FindBy(xpath="//button[starts-with(@title,'Submit')]")
+	public static WebElement tick;
 	@FindBy(xpath="//ul[@id='breadcrumbs']/li/a/i")
 	public static WebElement homepage;
 }

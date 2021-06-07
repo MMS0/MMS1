@@ -123,12 +123,14 @@ public class TC_OMRS_1 extends BrowserSetup{
 		relation.selectByVisibleText("Parent");
 		RegisterPatientPage.personname1.sendKeys(property.getProperty("parentname"));
 		Thread.sleep(3000);
+		//wait.until(ExpectedConditions.visibilityOf(RegisterPatientPage.john));
 		RegisterPatientPage.personname1.sendKeys(Keys.TAB);
 		RegisterPatientPage.addrelative.click();
 		Select relation2=new Select(RegisterPatientPage.relationtype2);
 		relation2.selectByVisibleText("Sibling");
 		RegisterPatientPage.personname2.sendKeys(property.getProperty("siblingname"));
 		Thread.sleep(4000);
+		//wait.until(ExpectedConditions.visibilityOf(RegisterPatientPage.william));
 		RegisterPatientPage.personname2.sendKeys(Keys.TAB);
 		test.log(Status.PASS,"Entered the Patient's relatives Successfully");
 		File sc8=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -203,6 +205,8 @@ public class TC_OMRS_1 extends BrowserSetup{
 			FileHandler.copy(sc13, new File("Screenshots\\13.Delete Allergy.png"));
 			String alert=AllergiesPage.message.getText();
 			System.out.println("Following alert is displaying after cliking the Delete button : "+alert);
+			System.out.println("Delete Popup contains 2 options with following Text : "+AllergiesPage.yes.getText()+" and "
+			+AllergiesPage.no.getText()+" buttons.");
 			AllergiesPage.yes.click();
 			test.log(Status.PASS,"Deleted the Saved Allergy datas Successfully");
 			Thread.sleep(1000);
@@ -272,7 +276,7 @@ public class TC_OMRS_1 extends BrowserSetup{
 			Thread.sleep(1000);
 			test.log(Status.PASS,"Saved New Add Location page with valid datas Successfully");
 			//String alert2=driver.switchTo().alert().getText();
-			System.out.println(MetadataPage.savemessage.getText());
+			System.out.println("Saved New Add Location page with valid datas Successfully and It's alert Message is : "+MetadataPage.savemessage.getText());
 			File sc20=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			FileHandler.copy(sc20, new File("Screenshots\\20.SavedLocations.png"));
 			MetadataPage.homepage.click();

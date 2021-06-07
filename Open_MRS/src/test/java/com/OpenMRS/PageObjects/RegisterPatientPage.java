@@ -42,10 +42,14 @@ public class RegisterPatientPage {
 	public static WebElement personname1;
 	@FindBy(xpath="//p[@style='padding: 10px']/a/i")
 	public static WebElement addrelative;
+	@FindBy(xpath="//a[starts-with(text(),' Smith')]")
+	public static WebElement john;
 	@FindBy(xpath="/html/body/div/div[3]/form/section[3]/div/fieldset/div/div[2]/p[1]/select")
 	public static WebElement relationtype2;
 	@FindBy(xpath="/html/body/div/div[3]/form/section[3]/div/fieldset/div/div[2]/p[2]/input[1]")
 	public static WebElement personname2;
+	@FindBy(xpath="//a[starts-with(text(),' Harris')]")
+	public static WebElement william;
 	@FindBy(xpath="//*[@id=\"relationship\"]/p[2]/ul")
 	public static List<WebElement> pnamelist;
 	@FindBy(id="submit")

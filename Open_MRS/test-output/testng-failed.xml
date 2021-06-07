@@ -6,9 +6,6 @@
       <class name="com.OpenMRS.TestCases.TC_OMRS_1">
         <methods>
           <include name="launchbrowser"/>
-          <include name="teardown"/>
-          <include name="ExtentReports"/>
-          <include name="endreports"/>
           <include name="openmrs"/>
         </methods>
       </class> <!-- com.OpenMRS.TestCases.TC_OMRS_1 -->

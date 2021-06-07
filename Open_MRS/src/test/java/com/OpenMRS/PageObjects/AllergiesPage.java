@@ -28,7 +28,7 @@ public class AllergiesPage {
 	public static WebElement yes;
 	@FindBy(xpath="//button[contains(text(),'No')]")
 	public static WebElement no;
-	@FindBy(xpath="//button[contains(text(),'No Known')]")
+	@FindBy(xpath="//button[contains(text(),'No Known')]")//button[starts-with(text(),'No')]
 	public static WebElement noallergy;
 	@FindBy(xpath="//button[contains(text(),'Return')]")
 	public static WebElement returnhome;
